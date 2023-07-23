@@ -1,5 +1,4 @@
-﻿using System;
-public abstract class Logistics
+﻿public abstract class Logistics
 {
 	public void PlanDelivery()
 	{
@@ -7,7 +6,6 @@ public abstract class Logistics
 		transport.Deliver();
 	}
 
-	//Factory Method
 	protected abstract ITransport CreateTransport();
 }
 

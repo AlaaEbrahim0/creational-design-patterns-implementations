@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.CrossPlatformUI.Product
 {
-	internal interface IButton
+	public interface IButton
 	{
 		public void Render();
 	}

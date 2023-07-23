@@ -7,7 +7,7 @@ using FactoryMethod.CrossPlatformUI.Product;
 
 namespace FactoryMethod.CrossPlatformUI.Creator
 {
-	internal abstract class Dialog
+	public abstract class Dialog
 	{
 		public void Render()
 		{

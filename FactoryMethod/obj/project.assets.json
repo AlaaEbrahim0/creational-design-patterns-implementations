@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Educational\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\FactoryMethod.csproj",
+      "projectUniqueName": "D:\\Educational\\Metigator\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\FactoryMethod.csproj",
       "projectName": "FactoryMethod",
-      "projectPath": "D:\\Educational\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\FactoryMethod.csproj",
+      "projectPath": "D:\\Educational\\Metigator\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\FactoryMethod.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Educational\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\obj\\",
+      "outputPath": "D:\\Educational\\Metigator\\DesignPatterns\\CreationalDesignPatterns\\FactoryMethod\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

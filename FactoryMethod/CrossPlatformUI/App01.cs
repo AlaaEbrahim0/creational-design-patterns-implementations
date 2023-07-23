@@ -8,7 +8,7 @@ using FactoryMethod.CrossPlatformUI.Creator.ConcreteCreators;
 
 namespace FactoryMethod.CrossPlatformUI
 {
-	internal class App01
+	public class App01
 	{
 		public Dialog dialog;
 

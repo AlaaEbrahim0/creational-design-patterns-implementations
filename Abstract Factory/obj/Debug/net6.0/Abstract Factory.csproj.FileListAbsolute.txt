@@ -1,0 +1,15 @@
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\bin\Debug\net6.0\Abstract Factory.exe
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\bin\Debug\net6.0\Abstract Factory.deps.json
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\bin\Debug\net6.0\Abstract Factory.runtimeconfig.json
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\bin\Debug\net6.0\Abstract Factory.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\bin\Debug\net6.0\Abstract Factory.pdb
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.csproj.AssemblyReference.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.AssemblyInfoInputs.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.AssemblyInfo.cs
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.csproj.CoreCompileInputs.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\refint\Abstract Factory.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.pdb
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\Abstract Factory.genruntimeconfig.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Abstract Factory\obj\Debug\net6.0\ref\Abstract Factory.dll

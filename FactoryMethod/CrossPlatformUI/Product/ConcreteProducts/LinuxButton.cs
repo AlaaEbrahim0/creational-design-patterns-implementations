@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.CrossPlatformUI.Product.ConcreteProducts
 {
-	internal class LinuxButton : IButton
+	public class LinuxButton : IButton
 	{
 		public void Render()
 		{

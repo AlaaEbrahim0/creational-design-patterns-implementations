@@ -8,7 +8,7 @@ using FactoryMethod.CrossPlatformUI.Product;
 
 namespace FactoryMethod.CrossPlatformUI.Creator.ConcreteCreators
 {
-	internal class WindowsDialog : Dialog
+	public class WindowsDialog : Dialog
 	{
 		protected override IButton CreateButton()
 		{

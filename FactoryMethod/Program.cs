@@ -12,12 +12,15 @@ public class Program
 		var logisticsBySea = new SeaLogistics();
 		logisticsBySea.PlanDelivery();
 
-		//UIPart
+		//-----------------------------------------
+
+
+		//UI Part
 		var app = new App01();
 		app.dialog.Render();
 
 
-
-    }
+	}
+	
 }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.CrossPlatformUI.Product.ConcreteProducts
 {
-	internal class WindowsButton : IButton
+	public class WindowsButton : IButton
 	{
 		public void Render()
 		{

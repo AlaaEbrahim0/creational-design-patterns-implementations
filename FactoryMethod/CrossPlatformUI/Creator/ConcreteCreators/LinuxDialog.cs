@@ -9,7 +9,7 @@ using FactoryMethod.CrossPlatformUI.Product.ConcreteProducts;
 
 namespace FactoryMethod.CrossPlatformUI.Creator.ConcreteCreators
 {
-	internal class LinuxDialog : Dialog
+	public class LinuxDialog : Dialog
 	{
 		protected override IButton CreateButton()
 		{
