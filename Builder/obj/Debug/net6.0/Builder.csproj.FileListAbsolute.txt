@@ -1,0 +1,15 @@
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\bin\Debug\net6.0\Builder.exe
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\bin\Debug\net6.0\Builder.deps.json
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\bin\Debug\net6.0\Builder.runtimeconfig.json
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\bin\Debug\net6.0\Builder.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\bin\Debug\net6.0\Builder.pdb
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.csproj.AssemblyReference.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.AssemblyInfoInputs.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.AssemblyInfo.cs
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.csproj.CoreCompileInputs.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\refint\Builder.dll
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.pdb
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\Builder.genruntimeconfig.cache
+D:\Educational\Metigator\DesignPatterns\CreationalDesignPatterns\Builder\obj\Debug\net6.0\ref\Builder.dll
