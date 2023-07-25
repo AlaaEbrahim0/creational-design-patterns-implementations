@@ -5,28 +5,26 @@ namespace Builder.GuitarExample
     internal class Program
     {
         static void Main(string[] args)
-        {
-            var acousticGuitarBuilder = new AcousticGuitarBuilder();
-            acousticGuitarBuilder
-                .SetBrand(GuitarBrand.GIBSON)
-                .SetBodyFinish(BodyFinish.BLACK)
-                .SetBodyShape(BodyShape.IBANEZ_RG)
-                .SetBodyWood(BodyWood.MAHOGANY)
-                .SetNeckShape(NeckShape.U)
-                .SetNeckWood(NeckWood.MAHOGANY)
-                .SetStringType(StringType.NYLON)
-                .SetBracingType(BracingType.LADDER)
-                .SetBridgeType(BridgeType.FIXED)
-                .SetSaddleType(SaddleType.NONE)
-                .SetHasCutaway(true)
-                .SetHasToneControls(true)
-                .SetHasVolumeControls(true)
-                .SetHasPickupSelector(false)
-                .SetNumFrets(20)
-                .SetNumStrings(6);
+		{
+			AcousticGuitarBuilder acousticGuitarBuilder = GetAcousticGuitarBuilder();
+			ElectricGuitarBuilder electricGuitarBuilder = GetElectricGuitarBuilder();
 
-            var electricGuitarBuilder = new ElectricGuitarBuilder();
-            electricGuitarBuilder
+			var AcousticGuitar = acousticGuitarBuilder.Build();
+			var ElectricGuitar = electricGuitarBuilder.Build();
+
+			Console.WriteLine("Acoustic Guitar\n");
+			Console.WriteLine("----------------------------------------------\n");
+			Console.WriteLine(AcousticGuitar);
+
+			Console.WriteLine("Electric Guitar\n");
+			Console.WriteLine("----------------------------------------------\n");
+			Console.WriteLine(ElectricGuitar);
+		}
+
+		private static ElectricGuitarBuilder GetElectricGuitarBuilder()
+		{
+			var electricGuitarBuilder = new ElectricGuitarBuilder();
+			electricGuitarBuilder
 				.SetBrand(GuitarBrand.GIBSON)
 				.SetBodyFinish(BodyFinish.BLACK)
 				.SetBodyShape(BodyShape.IBANEZ_RG)
@@ -40,23 +38,35 @@ namespace Builder.GuitarExample
 				.SetHasVolumeControls(true)
 				.SetHasPickupSelector(false)
 				.SetNumFrets(20)
-                .SetOutputJackType(OutputJackType.STEREO)
-                .SetTremoloSystemType(TremoloSystemType.FLOYD_ROSE)
-                .SetPickupConfiguration(PickupConfiguration.SINGLE)
-                .SetHasWhammyBar(true)  
+				.SetOutputJackType(OutputJackType.STEREO)
+				.SetTremoloSystemType(TremoloSystemType.FLOYD_ROSE)
+				.SetPickupConfiguration(PickupConfiguration.SINGLE)
+				.SetHasWhammyBar(true)
 				.SetNumStrings(6);
+			return electricGuitarBuilder;
+		}
 
-
-			var AcousticGuitar = acousticGuitarBuilder.Build();
-			var ElectricGuitar = electricGuitarBuilder.Build();
-
-            Console.WriteLine("Acoustic Guitar\n");
-            Console.WriteLine("----------------------------------------------\n");
-            Console.WriteLine(AcousticGuitar);
-
-			Console.WriteLine("Electric Guitar\n");
-			Console.WriteLine("----------------------------------------------\n");
-			Console.WriteLine(ElectricGuitar);
-        }
-    }
+		private static AcousticGuitarBuilder GetAcousticGuitarBuilder()
+		{
+			var acousticGuitarBuilder = new AcousticGuitarBuilder();
+			acousticGuitarBuilder
+				.SetBrand(GuitarBrand.GIBSON)
+				.SetBodyFinish(BodyFinish.BLACK)
+				.SetBodyShape(BodyShape.IBANEZ_RG)
+				.SetBodyWood(BodyWood.MAHOGANY)
+				.SetNeckShape(NeckShape.U)
+				.SetNeckWood(NeckWood.MAHOGANY)
+				.SetStringType(StringType.NYLON)
+				.SetBracingType(BracingType.LADDER)
+				.SetBridgeType(BridgeType.FIXED)
+				.SetSaddleType(SaddleType.NONE)
+				.SetHasCutaway(true)
+				.SetHasToneControls(true)
+				.SetHasVolumeControls(true)
+				.SetHasPickupSelector(false)
+				.SetNumFrets(20)
+				.SetNumStrings(6);
+			return acousticGuitarBuilder;
+		}
+	}
 }
